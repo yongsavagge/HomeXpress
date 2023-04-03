@@ -1,8 +1,12 @@
 <resources>
     <string name="app_name">HomeXpress</string>
+    <string name="apptitle">Home Xpress</string>
     <string name="btn_shop_list">Lista de Compras</string>
     <string name="btn_lug_interes">Lugares de Interés</string>
     <string name="btn_prod_list">Lista de Productos</string>
     <string name="btn_prod_inv">Inventario de Productos</string>
     <string name="btn_reminder">Recordatorio</string>
+    <string name="btn_faq">Ayuda</string>
+    <string name="lista_productos"> Ingrese el Producto</string>
+    <string name="btn_agregar">Añadir a la Lista</string>
 </resources>

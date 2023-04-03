@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     Button btn_prod_list;
     Button btn_prod_inv;
     Button btn_reminder;
+    Button btn_faq;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         btn_prod_list=(Button)findViewById(R.id.btn_prod_list);
         btn_prod_inv=(Button)findViewById(R.id.btn_prod_inv);
         btn_reminder=(Button)findViewById(R.id.btn_reminder);
+        btn_faq=(Button)findViewById(R.id.btn_faq);
         btn_shop_list.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -58,6 +60,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(reminder);
             }
         });
-
+        btn_faq.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent faq = new Intent(MainActivity.this, help.class);
+                startActivity(faq);
+            }
+        });
     }
 }
