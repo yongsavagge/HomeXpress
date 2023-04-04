@@ -13,4 +13,8 @@
     <string name="spinner">¿Dónde vamos?</string>
     <string name="google_map_key">AIzaSyA6-bs-zAFykV0WfKGkQD6gy9SEld84FMc</string>
     <string name="btn_add">Agregar</string>
+    <string name="productView">Nombre del Producto</string>
+    <string name="cantidadView">Ingrese la cantidad</string>
+    <string name="btn_anadir"> Agregar</string>
+    <string name="cantidad"> Cantidad</string>
 </resources>
